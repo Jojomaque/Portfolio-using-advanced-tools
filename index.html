@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jojo Russell</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <style>
+      .pushable {
+        background: hsl(178deg 100% 32%);
+        border-radius: 12px;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        outline-offset: 4px;
+      }
+      .front {
+        display: block;
+        padding: 12px 42px;
+        border-radius: 12px;
+        font-size: 1.25rem;
+        background: hsl(183deg 100% 47%);
+        color: white;
+        transform: translateY(-6px);
+      }
+
+      .pushable:active .front {
+        transform: translateY(-2px);
+      }
+    </style>
+
+    <button class="pushable">
+      <span class="front"> Click me </span>
+    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Jojo Russell</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2 class="text-center">Hi I am</h2>
+    <h1 class="text-center">Jojo Russell</h1>
+
+    <h3 class="text-center">Front-end developer, based in Edinburgh.</h3>
+    <div class="navigation-links mb-5">
+      <a href="about.html#contact" class="primary-link">Contact me</a>
+      <a href="about.html" class="secondary-link">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="images/Screenshot 2024-03-03 at 21-32-03 World Clock - Jojo Russell.png"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-6">
+          <h2 class="mb-3">World Clock app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://cheerful-tanuki-bbaac1.netlify.app"
+              class="primary-link"
+              >Launch World Clock App</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6">
+          <h2 class="mb-3">Weather app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5">
+            <a href="https://jr-weather-app.netlify.app/" class="primary-link"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="images/Screenshot 2024-02-28 at 21-10-10 Weather App.png" class="img-fluid rounded" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6">
+          <img src="images/aifrenchpoem.png" class="img-fluid rounded" />
+        </div>
+        <div class="col-6">
+          <h2 class="mb-3">French poem generator app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://jr-poem-generator-project.netlify.app/"
+              class="primary-link"
+              >French poem generator app</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
